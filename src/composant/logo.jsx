@@ -13,9 +13,9 @@ import './header.css'
   <div className="container">
     <h2>Fiche de pointage <span className="highlight">YONETWORK</span></h2>
     <div className="info">
-      <p className="centered"><strong>Nom de l'agent :</strong> {props.name}</p>
+      <p className="centered"><strong>Nom de l'agent :</strong> <strong>{props.name}</strong> </p>
       <div className="right-align">
-      <p><strong>Année :</strong> {annee}</p> 
+      <p><strong>Année :</strong> {annee}</p>  
       <p><strong>Mois :</strong> {mois}</p>   
       </div>
     </div>
